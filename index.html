@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Formulaire</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="./css/default.css">
+		<script rel="text/javascript" src="./js/script.js"></script>
+	</head>
+	<body>
+		<p class="title">Formulaire pour le TP JS</p>
+		<form action="" onSubmit="return verifform(this)">
+			<p>
+				Nom : <input id="divnom" name="nom" type="text"><span id="checknom">*</span><br>
+				Prénom : <input id="divprenom" name="prenom" type="text"><span id="checkprenom">*</span><br>
+				Email : <input id="divemail" name="email" type="text"><span id="checkemail">*</span><br>
+				Confirmez l'Email : <input id="divemail2" name="email2" type="text"><span id="checkemail2">*</span><br>
+				Téléphone : <input id="divtel" name="phone" type="text"><span id="checktel">*</span><br>
+				<input type="submit">
+			</p>
+		</form>
+		<p>Les champs marqués d'une * sont obligatoires</p>
+	</body>
+</html>

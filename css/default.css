@@ -1,0 +1,10 @@
+#checknom, #checkprenom, #checkemail, #checkemail2, #checktel {
+	color: red
+}
+
+.title {
+	color: blue;
+	font-size: 25px;
+	font-weight: bold;
+	text-shadow: 3px 1px black
+}
